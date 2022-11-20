@@ -25,17 +25,7 @@
 <section id ="latest-posts">
     <h2>My Latest thoughts</h2>
     <ul>
-        <li>
-            <article class="post">
-                <a href="">
-                    <img src="{% static 'blog/images/mountains.jpg' %}" alt="Mountain Hiking" />
-                
-                    <div class="post__content">
-                        <h3>Monutain Hiking</h3>
-                        <p>Hiking is fun!</p>
-                </div>
-            </a>
-        </li>
+        {% include "blog/includes/post.html" %}
     </ul>
 </section>
 <section id ="about">
